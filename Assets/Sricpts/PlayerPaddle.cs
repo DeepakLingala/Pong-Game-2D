@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerPaddle : Paddle
 {
     private Vector2 _direction;
+    
 
     //Inputs WASD KeyBoard
     private void Update()
@@ -29,5 +30,6 @@ public class PlayerPaddle : Paddle
           _rigidbody.AddForce(_direction * this.speed);
         }
     }
-    
+
+
 }

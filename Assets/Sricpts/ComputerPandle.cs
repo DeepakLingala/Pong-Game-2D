@@ -16,4 +16,5 @@ public class ComputerPaddle : Paddle
             _rigidbody.AddForce(Vector2.down * this.speed);
         }
     }
+    
 }
